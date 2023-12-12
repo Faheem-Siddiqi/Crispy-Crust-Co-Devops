@@ -1,0 +1,191 @@
+.NavBar {
+    background-color: rgb(0, 0, 0) !important;
+    box-shadow: 0 2px 4px rgba(243, 238, 238, 0.1);
+    /* Adjust box shadow */
+}
+.linksA {
+    color: rgb(255, 255, 255);
+    transition: all 0.3s;
+}
+.linksA:hover {
+    text-decoration: underline;
+    color: #FF1493 !important;
+}
+.linksA:focus {
+    color: #FF1493 !important;
+}
+.input {
+    border: none !important;
+    border-radius: 2px !important;
+    box-shadow: none !important;
+}
+.loginBtn {
+    box-shadow: none !important;
+    background-color: #FF1493;
+    border: 2px solid transparent !important;
+    width: 30%;
+    transition: 0.3s;
+}
+.loginBtn:hover {
+    background-color: transparent;
+    color: #FF1493;
+    border: 2px solid #FF1493 !important;
+    width: 50%;
+}
+.loginBtn:focus {
+    background-color: transparent;
+    color: #FF1493;
+    border: 2px solid #FF1493 !important;
+    width: 50%;
+}
+.SearchBtn {
+    box-shadow: none !important;
+    background-color: #FF1493;
+    border: 2px solid transparent !important;
+    width: 80%;
+    transition: 0.3s;
+}
+.SearchBtn:hover {
+    color: #FF1493;
+    background-color: #ffffff;
+    border: 2px solid #FF1493 !important;
+}
+.Plogin {
+    box-shadow: 0 14px 80px rgba(0, 0, 0, 0.19);
+    background-color: rgb(14, 14, 14) !important;
+ 
+}
+.Preg {
+    box-shadow: 0 14px 80px rgba(0, 0, 0, 0.19);
+    background-color: rgb(14, 14, 14) !important;
+    margin-top: 3%;
+    width: 30%;
+}
+.textP {
+    text-align: justify;
+}
+body {
+    overflow-x: hidden;
+}
+.searchPizza,
+.searchPizza:focus {
+    background-color: transparent;
+    box-shadow: none !important;
+    border-radius: 5px !important;
+    border: 2px solid #FF1493;
+}
+
+.cart:hover{
+    color: white !important;
+}
+.opt {
+    text-transform: uppercase;
+}
+.ModalP {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.514);
+}
+.ModalTitle,
+.ModalDescriptionTitle {
+    color: #FF1493;
+    text-transform: uppercase;
+}
+.ModalDescription {
+    color: black;
+}
+.PizzaCardp{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius:4px !important ;
+}
+.pp{
+    background-color: rgb(14, 14, 14) !important;
+}
+.Add {
+    box-shadow: none !important;
+    background-color: #FF1493 !important;
+    border: 2px solid transparent !important;
+    transition: 0.3s;
+}
+.Add:hover {
+    color: #FF1493 !important;
+    background-color: transparent !important;
+    border: 2px solid #FF1493 !important;
+}
+
+.AddSelect  , .AddSelect:focus{
+    color: #FF1493;
+    background-color: transparent;
+    height: 45px !important;
+    width: 200px !important;
+    text-align: end;
+    outline: none !important;
+    border: none;
+}
+
+.OrdersBox{
+    border: 1px solid #ffffff67; /* Border color */
+    border-radius: 8px; /* Border radius for rounded corners */
+    padding: 20px; /* Adjust padding as needed */
+    background-color: #fff; /* Background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.767);
+}
+
+.adminBtn{
+    background-color: rgb(14, 14, 14) ;
+    box-shadow: none !important;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+.adminBtn:focus  ,.adminBtn:hover{
+    background-color: #FF1493;
+    border: 2px solid #FF1493;
+}
+
+
+
+.pizzaForm{
+background-color: #ff149115;
+border-radius: 12px;
+margin-bottom: 44px;
+}
+
+.pizz:hover{
+   height: 210px !important;
+   width: 210px !important;
+}
+
+table {
+       border: 1px solid #ffffff67; /* Border color */
+        border-radius: 8px !important; 
+        padding: 20px; /* Adjust padding as needed */
+        background-color: #fff !important;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.767);
+
+}
+
+th{
+    background-color: rgb(27, 25, 25) !important;
+    color: #ff1491;
+}
+tr:hover{
+    background-color: #ff8ac8!important;
+    color: white !important;
+   
+}
+
+
+.OrderBtn , OrderBtn:focus{
+    background-color: #FF1493;
+    border: 2px solid #FF1493;
+
+}
+
+.bg{
+  
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    width: 100vw; /* Set width to 100% of viewport width */
+    height: 100vh; /* Set height to 100% of viewport height */
+    
+    background-size: cover; /* This property ensures the image covers the entire div */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
